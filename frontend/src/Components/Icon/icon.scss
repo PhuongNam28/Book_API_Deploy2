@@ -1,0 +1,54 @@
+.iconContainer {
+    margin-top: 140px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon {
+    text-align: left; 
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconpic {
+    mix-blend-mode: darken;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 5px; 
+}
+
+
+.slick-slider {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.slick-list {
+    overflow: visible;
+}
+
+.slick-dots li button {
+    width: 20px;
+    height: 20px;
+}
+
+.hrIcon {
+    border-color: black;
+    width: 50%;
+    margin-top: 30px;
+}
+@media(max-width: 1300px)
+{
+    .iconContainer {
+        display: none;
+    }
+}

@@ -1,0 +1,19 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', 'Times New Roman', Times, serif;
+}
+body {
+  font-family: 'Montserrat', 'Times New Roman', Times, serif;
+  position: relative;
+  height: auto;
+}
+:root{
+  --navbar-color: #dc3546ce;
+  --remove-button: #E42B26;
+  --old-price: grey;
+  --new-price: red;
+}
+
