@@ -38,7 +38,7 @@ function BookLoginPage() {
           style={{ backgroundImage: `url(${LoginInnerBgImg})` }}
         />
         <Password
-          disabled
+
           type="password"
           placeholder="Enter user password"
           value={password}
@@ -47,7 +47,6 @@ function BookLoginPage() {
           className="passwordHolder"
         />
         <Email
-          disabled
           type="email"
           placeholder="Enter user email"
           value={email}
